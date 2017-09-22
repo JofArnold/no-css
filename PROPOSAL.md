@@ -1,14 +1,15 @@
-### Atomic/Tachyons
+### Functional CSS
 
-One class name per CSS property, ala Tachyons
+One class name per CSS property, ala Tachyons / BassCSS / AtomicCSS
 
 ### No build step beyond first configuation
 
-Should not require webpack or other build step to support use in web dev, beyond initial compilation from SASS or similar
+We don't want to add yet another build step to already complex toolchains. You only build when you update your styles.
+
 
 ### Don't type CSS
 
-Users should be encouraged to *only* use class names
+Users should be encouraged to *only* use class names and avoid using custom components style.
 
 ### Responsive layouts out of the box
 
