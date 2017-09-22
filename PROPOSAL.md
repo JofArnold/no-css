@@ -67,3 +67,8 @@ Not sure about this one...
 ### All native styled stripped by default?
 
 ### How should it handle leakage from third-party style sheets?
+
+### Styles should always be editable in dev tools
+
+This means clear, global class names (not obfuscated hashes). If possible should ensure styles don't become read-only as per frequent Hot Module Replacement issues.
+
