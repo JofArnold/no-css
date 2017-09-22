@@ -25,7 +25,7 @@ Must take full advantage of browser's internal abilities (rendering, caching, pr
 
 ### Customisable but with opinionated defaults
 
-Must have defaults, like Tachyons, that pretty much guarantee good-looking output and vertical rhythm. Some customisation such as gutter widths 
+Must have defaults, like Tachyons, that pretty much guarantee good-looking output and vertical rhythm. Some customisation such as gutter widths
 
 ### Must work with React-style components
 
@@ -77,3 +77,8 @@ Not sure about this one...
 
 This means clear, global class names (not obfuscated hashes). If possible should ensure styles don't become read-only as per frequent Hot Module Replacement issues.
 
+### The building blocks we need
+
+1. A way to univerally write functional styling that output CSS but maybe other things. postCSS / SASS like are options but we need more output options than CSS. A react renderer could be a solution.
+1. With the above, it should become easy to generate variables and loops to generate functionnal CSS
+1. Provide one or many example libraries people can use as is or fork for their own projects.
