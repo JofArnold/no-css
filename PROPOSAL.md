@@ -10,6 +10,10 @@ Should not require webpack or other build step to support use in web dev, beyond
 
 Users should be encouraged to *only* use class names
 
+### Ban or lint-against overrides and conflicts
+
+`class="mb5 mb4"` should not be permitted. User generated `h1.mb4` should also not be permitted.
+
 ### Responsive layouts out of the box
 
 Probably using Bootstrap-style col-xs-6 (see https://github.com/GraphQLTraining/graphqltraining.github.io/blob/develop/src/layouts/flexgrid.scss)
