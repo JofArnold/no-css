@@ -58,3 +58,12 @@ E.g. not "min: 60, max: 90". Reason; it's confusing.
 ### Media queries are mobile first
 
 E.g. desktop would be achieved by a class like `md5-l` meaning "apply 5th margin value above large width" as opposed to `md5-mobile` meaning "apply 5th margin up to the maximum mobile size"
+
+
+### No nested/child/sibling selectors? (Except pseudo classes)
+
+Not sure about this one...
+
+### All native styled stripped by default?
+
+### How should it handle leakage from third-party style sheets?
