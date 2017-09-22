@@ -32,6 +32,18 @@ Even if it requires a compilation step. That's ok here
 
 Probably via composition. See https://github.com/GraphQLTraining/graphqltraining.github.io/blob/develop/src/layouts/globals.scss
 
+Reason: because some tools, such as markdown, may output naked tags without user control. User must be able to style them using only the existing styles. E.g. as per how example above composes Tachyons in a CSS Modules like way:
+
+
+```
+h1 {
+  @extend .f5;
+  @extend .mb5-l;
+  @extend .mb4;
+}
+```
+
+
 ### Compact output
 
 Generated style sheets in final build should be small. Only include the styles used
